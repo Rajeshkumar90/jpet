@@ -55,14 +55,14 @@
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
     <repository>
-         <id>deployment_1</id>
+         <id>deployment-1</id>
           <name>maven-releases</name>
-          <url>http://10.242.138.114:8082/#browse/browse/assets:maven-releases</url>
+          <url>http://10.242.138.114:8082/repository/maven-releases</url>
      </repository>
      <snapshotRepository>
-         <id>deployment_1</id>
+         <id>deployment-1</id>
          <name>maven-snapshots</name>
-         <url>http://10.242.138.114:8082/#browse/browse/assets:maven-snapshots</url>
+         <url>http://10.242.138.114:8082/repository/maven-snapshots</url>
       </snapshotRepository>
   </distributionManagement>
 
