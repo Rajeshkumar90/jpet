@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 
-       Copyright 2010-2016 the original author or authors.
+       Copyright 2010-2017 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@
   </parent>
 
   <groupId>org.Rajeshkumar90</groupId>
-  <version>6.0.3-SNAPSHOT</version>
+  <version>6.0.3</version>
   <artifactId>jpetstore</artifactId>
   <packaging>war</packaging>
 
@@ -38,7 +38,7 @@
     <url>http://github.com/Rajeshkumar90/jpet</url>
     <connection>scm:git:https://github.com/Rajeshkumar90/jpet.git</connection>
     <developerConnection>scm:git:https://git@github.com/Rajeshkumar90/jpet.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>jpetstore-6.0.3</tag>
   </scm>
   <distributionManagement>
      <repository>
