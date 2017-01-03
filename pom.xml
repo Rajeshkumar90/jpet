@@ -36,8 +36,8 @@
 
   <scm>
     <url>http://github.com/mybatis/jpetstore-6</url>
-    <connection>scm:git:ssh://github.com/mybatis/jpetstore-6.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/mybatis/jpetstore-6.git</developerConnection>
+    <connection>scm:git:https://github.com/mybatis/jpetstore-6.git</connection>
+    <developerConnection>scm:git:https://git@github.com/mybatis/jpetstore-6.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
@@ -52,7 +52,7 @@
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
+      <url>git:https://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
     <repository>
          <id>deployment-1</id>
