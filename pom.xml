@@ -21,7 +21,7 @@
 
   <groupId>org.Rajeshkumar90</groupId>
   <version>6.0.3-SNAPSHOT</version>
-  <artifactId>jpetstore</artifactId>
+  <artifactId>jpetStore</artifactId>
   <packaging>war</packaging>
 
   <name>JPetStore Demo 6</name>
