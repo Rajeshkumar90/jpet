@@ -11,5 +11,15 @@ pipeline {
         echo 'Build completed succesfully'
       }
     }
+    stage('CF push') {
+      steps {
+        echo 'Pushed successfully'
+      }
+    }
+    stage('Test') {
+      steps {
+        bat(script: 'echo "triger"', returnStatus: true, returnStdout: true)
+      }
+    }
   }
 }
