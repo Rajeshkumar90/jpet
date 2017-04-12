@@ -25,14 +25,12 @@ pipeline {
             steps {
                 bat(script: 'echo "triger"', returnStatus: true, returnStdout: true)
             }
-        }
-                                
-        post {
+        }                            
+    }
+	post {
             success {
                 bat(script: 'echo "mapped route"', returnStatus: true, returnStdout: true)
             }
                                 
         }
-                                
-    }
 }
