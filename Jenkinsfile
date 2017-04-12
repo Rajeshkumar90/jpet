@@ -29,9 +29,7 @@ pipeline {
                                 
         post {
             success {
-                stage ('Map route3') {
-                    bat(script: 'echo "mapped route"', returnStatus: true, returnStdout: true)
-                }
+                bat(script: 'echo "mapped route"', returnStatus: true, returnStdout: true)
             }
                                 
         }
